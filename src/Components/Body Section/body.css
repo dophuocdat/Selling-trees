@@ -1,0 +1,18 @@
+.mainContent {
+  width: 82%;
+  height: 100%;
+  padding: 2rem; /* padding between the content and the side bar */
+  overflow: auto;
+}
+.mainContent .bottom {
+  margin-top: 2rem; /* margin between the content and the bottom */
+  gap: 2rem; /* gap between the bottom content */
+  align-items: flex-start; /* align the content with the top */
+}
+
+/* Media queries */
+@media screen and (max-width: 918px) {
+  .bottom {
+    flex-direction: column;
+  }
+}
